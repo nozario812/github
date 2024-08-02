@@ -29,3 +29,5 @@ def calculate_tr_time(pretrigger, upper_voltage,  upper_time,below_voltage, belo
         denominator = (below_voltage - upper_voltage) / (below_time - upper_time)
         arrival_time = numerator / denominator 
     return arrival_time
+
+#github動作確認#
